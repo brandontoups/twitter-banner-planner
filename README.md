@@ -1,9 +1,9 @@
 # Twitter Banner Planner
 
-![](ascent-of-man.jpg "")
+![](ascent-of-man.jpg?raw=true "")
 
 ## Description 
-One man's journey throughout the week. This updates your Twitter background based on the current progression of the week. Each day, the background is updated with the next progression in the 'Ascent of Man' image. Pictures better viewed for mobile Twitter application.
+One man's journey through the week. This updates your Twitter background based on the current progression of the week. Each day, the background is updated with the next progression in the 'Ascent of Man' image. Pictures better viewed for mobile Twitter application.
 
 ## Getting Started
 
