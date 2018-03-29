@@ -1,8 +1,14 @@
+"""
+author:   Brandon Toups
+email:    bmt0015@auburn.edu
+credits:  @dontsave
+"""
+
 from __future__ import absolute_import, print_function
 from datetime import date
 import calendar
 import tweepy
-import os
+import os.path
 
 # OAuth Authentication
 # Consumer keys can be found on your application's 'Keys and Access Tokens'
@@ -28,6 +34,12 @@ file_name = str(day_of_week + '.jpg')
 
 api = tweepy.API(auth)
 
-# Update the authenticating user's profile image. 
+# Finding images in subdirectory 'images'
+my_path = os.path.abspath(os.path.dirname(__file__))
+filename = str("images/" + day_of_week + ".jpg")
+# Relative path
+path = os.path.join(my_path, filename)
+
+# Update the authenticating user's banner.
 # Valid formats: GIF, JPG, or PNG
-api.update_profile_banner(file_name)
+api.update_profile_banner(path)

@@ -8,5 +8,8 @@
 # │ │ │ │ │
 # * * * * *  command_to_execute
 
+# Edit this based on the corresponding location of your Python file.
+# /usr/local/bin/python references the location of Python 2.7 on Mac. Change accordingly.
+
 # On 0 minute of the 0 hour of every day of every month, run update.py
-0 0 * * * cd ~/path/to/directory; /usr/local/bin/python ~/path/to/file/_update.py                                                                         
+0 0 * * * cd ~/path/to/directory/holding/_update.py; /usr/local/bin/python ~/path/to/file/_update.py                                                                         
