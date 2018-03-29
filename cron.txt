@@ -1,0 +1,12 @@
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sun-Sat)
+# │ │ │ │ │                                      
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+
+# On 0 minute of the 0 hour of every day of every month, run update.py
+0 0 * * * cd ~/path/to/directory; /usr/local/bin/python ~/path/to/file/_update.py                                                                         
