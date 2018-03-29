@@ -27,4 +27,4 @@ Twitter: [@dontsave](https://twitter.com/dontsave?lang=en)
 Website: www.dontsave.com
 
 ## Twitter
-If you would like to see this in action, it is currently running on my Twitter [@brandontoups](https://twitter.com/brandontoups). 
+If you would like to see this in action, it is currently running on my Twitter [@brandontoups](https://twitter.com/brandontoups). Viewing on mobile is recommended, as the resolution of the images is low.
