@@ -24,4 +24,7 @@ Hat tip to dave's [tweet](https://twitter.com/dontsave/status/976495944224165888
 
 Twitter: [@dontsave](https://twitter.com/dontsave?lang=en) 
 
-Website: dontsave.com
+Website: www.dontsave.com
+
+## Twitter
+If you would like to see this in action, it is currently running on my Twitter [@brandontoups](https://twitter.com/brandontoups). 
