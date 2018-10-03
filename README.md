@@ -9,6 +9,8 @@ One man's journey through the week. This updates your Twitter background based o
 
 First, set up a Twitter app at https://apps.twitter.com. This will generate an API Key, API Secret, Access Token, and Access Token Secret needed for OAuth.
 
+ssh into your Raspberry Pi, and get a clone of this repo on it.
+
 Next, install [Tweepy](http://www.tweepy.org/), a wrapper for the Twitter API with ```pip install tweepy ```
 
 To run the program at set intervals, set up a Cron Job. This allows the program to run every day at midnight. To schedule a Cron Job, enter ```crontab -e``` into Terminal. Then, copy in the job found in [cron.txt](cron.txt). Save and close. 
