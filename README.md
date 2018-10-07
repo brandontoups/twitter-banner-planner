@@ -3,13 +3,13 @@
 ![](ascent-of-man.jpg?raw=true "")
 
 ## Description 
-One man's journey through the week. This updates your Twitter background based on the current progression of the week. Each day, the background is updated with the next progression in the 'Ascent of Man' image. Pictures better viewed for mobile Twitter application.
+This updates your Twitter background based on the current progression of the week. Each day, the background is updated with the next progression in the 'Ascent of Man' image. Pictures better viewed for mobile Twitter application.
 
 ## Getting Started
 
 First, set up a Twitter app at https://apps.twitter.com. This will generate an API Key, API Secret, Access Token, and Access Token Secret needed for OAuth.
 
-ssh into your Raspberry Pi, and get a clone of this repo on it.
+ssh into your Raspberry Pi and get a clone of this repo on it.
 
 Next, install [Tweepy](http://www.tweepy.org/), a wrapper for the Twitter API with ```pip install tweepy ```
 
